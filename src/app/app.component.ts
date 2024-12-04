@@ -29,8 +29,9 @@ export class AppComponent implements OnInit, AfterViewInit{
     const carouselElement = document.querySelector('#catCarousel');
     if (carouselElement) {
       new bootstrap.Carousel(carouselElement, {
-        interval: false,
-        wrap: true
+        interval: 5000,
+        wrap: true,
+        ride: 'carousel'
       });
     }
   }
