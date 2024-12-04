@@ -1,0 +1,6 @@
+<div *ngIf="image">
+    <img [src]="image.url" [alt]="image.descripcion" class="img-fluid"
+    (mousemove)="onMouseMove($event)" />
+    <p>{{ image.descripcion }}</p>
+  </div>
+  

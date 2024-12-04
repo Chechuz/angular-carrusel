@@ -1,0 +1,13 @@
+<div *ngIf="image">
+    <h3>Detalles de la Imagen</h3>
+    <ul>
+      <li><strong>URL:</strong> {{ image.url }}</li>
+      <li><strong>Descripción:</strong> {{ image.descripcion }}</li>
+      <li><strong>Tamaño:</strong> {{ image.tamano }}</li>
+      <br/>
+      <li *ngIf="coordinates">
+        <strong>Coordenadas del Ratón:</strong> X: {{ coordinates.x }}, Y: {{ coordinates.y }}
+      </li>
+    </ul>
+  </div>
+  

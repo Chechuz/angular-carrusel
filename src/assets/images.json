@@ -1,0 +1,38 @@
+[
+    {
+      "url": "assets/images/g1.jpg",
+      "descripcion": "Gatito uno",
+      "tamano": "283x178"
+    },
+    {
+      "url": "assets/images/g2.jpg",
+      "descripcion": "Gatito dos",
+      "tamano": "299x168"
+    },
+    {
+        "url": "assets/images/g3.jpg",
+        "descripcion": "Gatito tres",
+        "tamano": "310x163"
+      },
+      {
+        "url": "assets/images/g4.jpg",
+        "descripcion": "Gatito cuatro",
+        "tamano": "280x180"
+      },
+      {
+        "url": "assets/images/g5.jpg",
+        "descripcion": "Gatito cinco",
+        "tamano": "275x183"
+      },
+      {
+        "url": "assets/images/g6.jpg",
+        "descripcion": "Gatito seis",
+        "tamano": "275x183"
+      },
+      {
+        "url": "assets/images/g7.jpg",
+        "descripcion": "Gatito siete",
+        "tamano": "258x195"
+      }
+  ]
+  
